@@ -1,26 +1,18 @@
 # SANA AI Conference
+A one-page website for an artificial intelligence conference featuring the event program, speakers, and registration.
 
-Одностраничный сайт конференции по искусственному интеллекту: программа, спикеры и регистрация.
+## Live Website
+`https://Amirbek01.github.io/landing-khakimzhan/`
 
-## Ссылка на сайт
+## Features
+- semantic HTML5 structure using `header`, `nav`, `main`, `section`, `article`, and `footer`;
+- sections covering the hero area, event information, benefits, program, speakers, registration, and contacts;
+- an accessible registration form with name, email, and message fields;
+- correct heading hierarchy and alternative text for the image;
+- SEO metadata, responsive viewport settings, and an SVG favicon;
+- responsive layout for mobile and desktop screens;
+- visible focus states, a skip-to-content link, and support for `prefers-reduced-motion`;
+- an original illustration created for the hero section.
 
-После публикации на GitHub Pages сайт будет доступен по адресу:
-
-`https://<ваш-логин>.github.io/landing-khakimzhan/`
-
-Замените `<ваш-логин>` на имя вашего аккаунта GitHub.
-
-## Что реализовано
-
-- семантическая структура HTML5: `header`, `nav`, `main`, `section`, `article`, `footer`;
-- тематические блоки: главный экран, о событии, преимущества, программа, спикеры, регистрация и контакты;
-- доступная форма регистрации с полями имени, электронной почты и сообщения;
-- корректная иерархия заголовков и альтернативный текст для изображения;
-- SEO-метаданные, viewport и SVG-favicon;
-- адаптивная вёрстка для мобильных и настольных экранов;
-- заметные состояния фокуса, ссылка пропуска к содержанию и поддержка `prefers-reduced-motion`;
-- оригинальная иллюстрация для главного экрана.
-
-## Автор
-
-Хакімжан Әмірбек
+## Author
+Khakimzhan Amirbek
