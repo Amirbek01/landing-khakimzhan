@@ -881,3 +881,57 @@ h2 {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* Первый блок занимает весь экран.
+   Шапка уже расположена поверх него через position: absolute. */
+.hero {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.hero-content {
+  min-height: 100vh;
+  min-height: 100svh;
+  justify-content: center;
+  padding-top: 112px;
+  padding-bottom: 48px;
+}
+
+.hero h1 {
+  font-size: clamp(3.4rem, min(9.4vw, 12svh), 8.2rem);
+}
+
+.hero-facts {
+  margin-top: clamp(28px, 6svh, 72px);
+}
+
+.speaker-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 25px;
+  background: var(--surface);
+}
+
+@media (max-width: 600px) {
+  .hero-content {
+    padding-top: 100px;
+    padding-bottom: 36px;
+  }
+
+  .hero h1 {
+    font-size: clamp(3rem, min(17vw, 10svh), 4.4rem);
+  }
+
+  .hero-facts {
+    margin-top: 32px;
+  }
+
+  .speaker-photo {
+    margin-bottom: 20px;
+  }
+}
