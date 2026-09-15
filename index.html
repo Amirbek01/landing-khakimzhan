@@ -8,6 +8,34 @@
   <title>SANA AI Conference — конференция об искусственном интеллекте</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
+  <style>
+  #top {
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+  #top .hero-content {
+    min-height: 100vh;
+    min-height: 100svh;
+    justify-content: center;
+    padding-top: 112px;
+    padding-bottom: 48px;
+  }
+  #speakers .speaker-card > img {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 25px;
+  }
+  @media (max-width: 600px) {
+    #top .hero-content {
+      padding-top: 100px;
+      padding-bottom: 36px;
+    }
+  }
+</style>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Перейти к содержанию</a>
