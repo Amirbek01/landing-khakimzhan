@@ -8,7 +8,7 @@ A one-page website for an artificial intelligence conference featuring the event
 - semantic HTML5 structure using `header`, `nav`, `main`, `section`, `article`, and `footer`;
 - sections covering the hero area, event information, benefits, program, speakers, registration, and contacts;
 - an accessible registration form with name, email, and message fields;
-- correct heading hierarchy and alternative text for the image;
+
 - SEO metadata, responsive viewport settings, and an SVG favicon;
 - responsive layout for mobile and desktop screens;
 - visible focus states, a skip-to-content link, and support for `prefers-reduced-motion`;
@@ -22,15 +22,15 @@ This version of the website uses Bootstrap 5 through the jsDelivr CDN. The navig
 
 ### Mobile — 375 px
 
-![Mobile layout](screenshots/mobile-375.png)
+<img width="758" height="1818" alt="image" src="https://github.com/user-attachments/assets/2df9cb58-de30-425c-ae1f-96df1bb21c49" />
 
 ### Tablet — 768 px
 
-![Tablet layout](screenshots/tablet-768.png)
+<img width="1534" height="1820" alt="image" src="https://github.com/user-attachments/assets/4325e459-3627-4540-a019-d5aa79422b91" />
 
 ### Desktop — 1280 px
 
-![Desktop layout](screenshots/desktop-1280.png)
+<img width="1922" height="1822" alt="image" src="https://github.com/user-attachments/assets/a8c90ace-9cf3-47bb-a277-480581361846" />
 
 ## Why I Used Bootstrap
 
