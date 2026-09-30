@@ -22,19 +22,19 @@ This version of the website uses Bootstrap 5 through the jsDelivr CDN. The navig
 
 ### Mobile — 375 px
 
-<img width="758" height="1818" alt="image" src="https://github.com/user-attachments/assets/2df9cb58-de30-425c-ae1f-96df1bb21c49" />
+![Mobile layout](/assets/screenshots/375px.png)
 
 ### Tablet — 768 px
 
-<img width="1534" height="1820" alt="image" src="https://github.com/user-attachments/assets/4325e459-3627-4540-a019-d5aa79422b91" />
+![Tablet layout](/assets/screenshots/768px.png)
 
 ### Desktop — 1280 px
 
-<img width="1922" height="1822" alt="image" src="https://github.com/user-attachments/assets/a8c90ace-9cf3-47bb-a277-480581361846" />
+![Desktop layout](/assets/screenshots/1280px.png)
 
 ## Why I Used Bootstrap
 
-I used Bootstrap 5 because its grid system makes responsive layouts easier to organize. The `col-12`, `col-md-6`, and `col-lg-4` classes let the same cards use one, two, or three columns depending on the screen width. The navbar component provides a working mobile menu without requiring my own JavaScript. Bootstrap cards also give the content a clear and consistent structure. Bootstrap can sometimes get in the way when a design requires unusual spacing or component styles because it includes default rules. Unlike Tailwind, Bootstrap provides ready-made components instead of relying mainly on utility classes. Unlike Sass, it works directly in the browser and does not need a compilation step.
+I used Bootstrap 5 because its grid system makes responsive layouts easier to organize. The `col-12`, `col-md-6`, and `col-lg-4` classes let the same cards use one, two, or three columns depending on the screen width. The navbar component provides a working mobile menu without requiring my own JavaScript. Bootstrap cards also give the content a clear and consistent structure. Bootstrap can sometimes get in the way when a design requires unusual spacing or component styles because it includes default rules. Unlike Tailwind, Bootstrap provides ready-made components instead of relying mainly on utility clas ses. Unlike Sass, it works directly in the browser and does not need a compilation step.
 
 ## AI Tools
 
